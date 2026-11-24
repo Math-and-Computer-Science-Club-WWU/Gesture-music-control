@@ -120,5 +120,4 @@ Nobody waits on anyone. Until the real piece before yours exists, use a stand-in
 - Every change gets an issue, a branch, and a pull request. **Never push directly to `main`.**
 - At least one teammate reviews each PR. Try to review within 1–2 days. Windows teammates review iOS code too.
 - Test camera, gesture, and music features on a real iPhone before calling them done.
-- Write a short note in `docs/decisions/` when you make a real technical choice.
 - Stuck for more than a day? Tell the lead.

@@ -179,7 +179,7 @@ We track the following to measure quality over time. Results will be published h
 
 ## Contributing
 
-We use a pull-request workflow: every change is made on a feature branch, reviewed by at least one teammate, and merged into `main` once CI passes. Design decisions are recorded in [`docs/decisions/`](docs/decisions/).
+We use a pull-request workflow: every change is made on a feature branch, reviewed by at least one teammate, and merged into `main` once CI passes.
 
 ---
 
