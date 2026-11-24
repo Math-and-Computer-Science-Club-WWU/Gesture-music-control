@@ -42,7 +42,7 @@ Building and running the iOS app requires **Xcode, which only runs on a Mac**. S
 
 **Builds:** Apple Music and Spotify control behind one shared `MusicController` protocol, so the rest of the app doesn't care which service is active. Also builds the **Now Playing** screen (album art, title, artist) and handles Spotify login, dropped connections, and error messages.
 
-**Runs:** defines the handoff types, reviews code, and leads integration sessions.
+**Runs:** defines the handoff types, reviews code, and leads integration at the end of each milestone.
 
 **Week 1:** write the handoff types, create the GitHub board and first issues, and build a quick **Spotify proof of concept** (connect and skip one song).
 
@@ -111,13 +111,13 @@ Nobody waits on anyone. Until the real piece before yours exists, use a stand-in
 | Dispatch & Quality | Hand-written fake data and fake gestures, then real recordings |
 | Lead + Integrations | Debug Next / Previous / Pause buttons |
 
-**Recording sessions:** early in Milestone 2, the whole team meets and records a big batch of gestures (all 4 hands, different lighting and distances, plus "random movement" that should *not* trigger anything). That gives the Windows teammates plenty of real data to work with.
+**Recordings:** early in Milestone 2, we record a big batch of gestures from all 4 of us (different lighting and distances, plus "random movement" that should *not* trigger anything). That gives the Windows teammates plenty of real data to work with.
 
-**Integration sessions:** at the end of each milestone, we meet (in person if possible), swap the stand-ins for the real pieces, and test the whole app on a real iPhone. This is when the Windows teammates see their code running live.
+**Integration:** at the end of each milestone, we swap the stand-ins for the real pieces and test the whole app on a real iPhone.
 
 ## Ground rules
 
 - Every change gets an issue, a branch, and a pull request. **Never push directly to `main`.**
-- At least one teammate reviews each PR. Try to review within 1–2 days. Windows teammates review iOS code too.
+- At least one teammate reviews each PR.
 - Test camera, gesture, and music features on a real iPhone before calling them done.
 - Stuck for more than a day? Tell the lead.
