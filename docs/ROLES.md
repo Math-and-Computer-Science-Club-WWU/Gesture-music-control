@@ -48,7 +48,7 @@ Building and running the iOS app requires **Xcode, which only runs on a Mac**. S
 
 > **Spotify fallback rule:** if Spotify isn't working reliably by the end of Milestone 1, we ship Apple Music first and move Spotify to Milestone 3. Spotify is the riskiest part of the project, so we decide this early rather than letting it block everything.
 
-**Workload:** 🟠 Heavy (expected for the lead).
+**Workload:** 🟠 Heavy.
 
 ---
 
@@ -118,6 +118,6 @@ Nobody waits on anyone. Until the real piece before yours exists, use a stand-in
 ## Ground rules
 
 - Every change gets an issue, a branch, and a pull request. **Never push directly to `main`.**
-- At least one teammate reviews each PR.
+- At least one teammate reviews each PR (preferably).
 - Test camera, gesture, and music features on a real iPhone before calling them done.
-- Stuck for more than a day? Tell the lead.
+- Stuck for more than a day? Please speak up and ask questions.
