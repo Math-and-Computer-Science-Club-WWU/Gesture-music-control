@@ -198,5 +198,4 @@ See [Team Roles & Responsibilities](docs/ROLES.md) for a detailed breakdown of e
 
 ## License
 
-<!-- Choose a license (e.g. MIT) and add a LICENSE file -->
-TBD
+This project is licensed under the [MIT License](LICENSE).
